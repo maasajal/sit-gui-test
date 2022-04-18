@@ -1,2 +1,4 @@
-# sit-gui-test
-Software Implementation and Testing
+# Software Implementation and Testing
+
+## GUI testing
+
