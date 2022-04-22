@@ -1,0 +1,837 @@
+{
+  "id": "a623a51f-5556-4561-859b-dc9e2e981564",
+  "version": "2.0",
+  "name": "Final project",
+  "url": "https://www.power.fi/",
+  "tests": [{
+    "id": "1e31d0ca-ec65-41d4-8170-fb3c1c71e6c2",
+    "name": "iPh test",
+    "commands": [{
+      "id": "f46ba238-2497-49c6-941c-28d2df565492",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.power.fi/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d49af54-bc87-44be-a122-d9e3120d0328",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x715",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30e7845c-983e-4d91-ac27-6b96363c0979",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,421)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f88ad30-37e1-49d0-8ddd-380947194aee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c76-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c76-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0e6a91e-f246-4854-a919-e42f842ea433",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1238)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3556959-e9b1-462c-b1be-18ca1bf79a40",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-tns-c76-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c76-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "iphone 13 pro"
+    }, {
+      "id": "1c2cc20b-8536-450a-bfa9-42a84466edf2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=iPhone 13 Pro",
+      "targets": [
+        ["linkText=iPhone 13 Pro", "linkText"],
+        ["css=.search-pages > .ng-tns-c82-0:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'iPhone 13 Pro')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/apple/iphone/iphone-13-pro/?q=iphone%2013%20pro')]", "xpath:href"],
+        ["xpath=//div[2]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'iPhone 13 Pro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d82c501-ee80-49cf-bc80-84a4246e3e5a",
+      "comment": "",
+      "command": "click",
+      "target": "id=site-search-overlay",
+      "targets": [
+        ["id=site-search-overlay", "id"],
+        ["css=#site-search-overlay", "css:finder"],
+        ["xpath=//div[@id='site-search-overlay']", "xpath:attributes"],
+        ["xpath=//pwr-nav-search/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4556f1d-44f2-4173-ab74-03086f620190",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67d6037f-eb35-4529-8360-2d02f0c3ece6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,12)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a26788c1-bcfe-4a67-918e-325203c7f539",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,336)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "475ed54d-c5fc-41af-8529-2a3d9ed44670",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,598)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "342f06ba-d148-4850-8c17-80f4f1fbcdea",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,700)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd6ae36f-f658-4057-b575-8ae8ea97ea45",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1131)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84e28d29-43a3-4e2e-b286-8e6f4eaceb97",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2532)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd42da69-23c2-42c2-84b6-f20ef5a3baf9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3848)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd2402ae-8294-4974-8692-82115257540a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-spacer-mini > img",
+      "targets": [
+        ["css=.mb-spacer-mini > img", "css:finder"],
+        ["xpath=//img[@alt='Power logo']", "xpath:img"],
+        ["xpath=//div[@id='page-header-logo']/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35c58ac4-e936-473f-8acc-7c53f4cf90ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c76-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c76-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2971a94e-21cb-4129-b924-ae5bd9e87b29",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-tns-c76-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c76-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "iphone 12 pro"
+    }, {
+      "id": "ba5d2282-2976-42b6-9a93-e61a0b99d9cf",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.ng-tns-c76-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c76-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "cc43f3c1-3c1c-4c4e-b167-744e95b64061",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,858)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f3cd067-43ce-4b5f-8189-26e69c108a7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c76-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c76-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "842db3b4-763c-4227-9a71-6e70c3a2873d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d266c861-f452-4691-af78-197214f19cd7",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-tns-c76-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c76-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "iphone 12 pro "
+    }, {
+      "id": "f8d137c6-6c38-4c03-8837-bbfca77618d0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=iPhone 12 Pro",
+      "targets": [
+        ["linkText=iPhone 12 Pro", "linkText"],
+        ["css=.search-pages > .ng-tns-c82-0:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'iPhone 12 Pro')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/apple/iphone/iphone-12-pro/?q=iphone%2012%20pro%20')]", "xpath:href"],
+        ["xpath=//div[2]/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'iPhone 12 Pro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67eb039e-9dbd-4ea6-8894-bf8e1b5c841b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,457)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83b6be3f-3e8c-452c-8a2f-099fef251a43",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,21)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b6cadda-42f4-4cb1-bcf7-3d2589f03c73",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,932)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd046d10-612c-41a4-b23c-64a75b174bda",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2211)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8346b363-0e1e-44f0-bb6d-3e0a3073c4de",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3466)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eedd8174-767f-4aa3-8451-5b8e14cc81b1",
+      "comment": "",
+      "command": "click",
+      "target": "id=botxo-openImg-puzzel",
+      "targets": [
+        ["id=botxo-openImg-puzzel", "id"],
+        ["css=#botxo-openImg-puzzel", "css:finder"],
+        ["xpath=//img[@alt='Open or close chat']", "xpath:img"],
+        ["xpath=//img[@id='botxo-openImg-puzzel']", "xpath:attributes"],
+        ["xpath=//chatbutton[@id='botxo-button-puzzel']/img", "xpath:idRelative"],
+        ["xpath=//chatbutton/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b5f0ee1-7dce-41ff-b7fd-f6f67a27e255",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=4",
+      "targets": [
+        ["index=4"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4abc403-533c-4351-a9b9-4e1234655025",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.plain-input-cssmodule-input-1ALg7",
+      "targets": [
+        ["css=.plain-input-cssmodule-input-1ALg7", "css:finder"],
+        ["xpath=//input[@value='hi']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "3ea1bd1b-3c52-49fa-a3d3-8deda4be047a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.plain-input-cssmodule-input-1ALg7",
+      "targets": [
+        ["css=.plain-input-cssmodule-input-1ALg7", "css:finder"],
+        ["xpath=//input[@value='can I have iphone 12 pro product information in descriptions']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "can I have iphone 12 pro product information in descriptions"
+    }, {
+      "id": "ff55a55a-a677-4d4d-99a5-4aba37ca43c6",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.plain-input-cssmodule-input-1ALg7",
+      "targets": [
+        ["css=.plain-input-cssmodule-input-1ALg7", "css:finder"],
+        ["xpath=//input[@value='can I have iphone 12 pro product information in descriptions']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "25645e7e-a86c-409a-bc9a-c6c3a11816f0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//button[@id='suggested-reply-button'])[6]",
+      "targets": [
+        ["xpath=(//button[@id='suggested-reply-button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='bot-content']/div/div/button[6]", "xpath:idRelative"],
+        ["xpath=//button[6]", "xpath:position"],
+        ["xpath=//button[contains(.,'MyPOWER/RePOWER')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09f3d07c-e977-4a07-90ac-ecadb2b51db3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plain-input-cssmodule-input-1ALg7",
+      "targets": [
+        ["css=.plain-input-cssmodule-input-1ALg7", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9db2dce1-ebc4-4771-af7b-cdd18390ca4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.closeButton-cssmodule-container-3c4yy > svg",
+      "targets": [
+        ["css=.closeButton-cssmodule-container-3c4yy > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ca88c8d-3ab6-4629-8144-edd6843e369b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3483869-22e7-404e-931e-c8858b817752",
+      "comment": "",
+      "command": "click",
+      "target": "id=botxo-img-puzzel",
+      "targets": [
+        ["id=botxo-img-puzzel", "id"],
+        ["css=#botxo-img-puzzel", "css:finder"],
+        ["xpath=//img[@alt='Open or close chat']", "xpath:img"],
+        ["xpath=//img[@id='botxo-img-puzzel']", "xpath:attributes"],
+        ["xpath=//chatbutton[@id='botxo-button-puzzel']/img", "xpath:idRelative"],
+        ["xpath=//chatbutton/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6a23fff-90b8-400c-86a3-1a81fd78c8c8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4645)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a96e237-bd6b-4fc5-bb59-1f74f04fde28",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6579)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8232d9f8-ea0e-460d-ace3-fd2aa4cddf07",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7760)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e43360d0-26df-48e4-bff3-e6acd5916de8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product-189371804 .swiper-slide:nth-child(1) .bold:nth-child(1) > font:nth-child(1) > font:nth-child(1)",
+      "targets": [
+        ["css=#product-189371804 .swiper-slide:nth-child(1) .bold:nth-child(1) > font:nth-child(1) > font:nth-child(1)", "css:finder"],
+        ["xpath=//pwr-lib-carousel-wrapper[@id='product-189371804']/div/swiper/div[2]/div/pwr-product-item-v2/a/div[2]/h6/font/font", "xpath:idRelative"],
+        ["xpath=//h6/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98c7ab7a-1290-4a72-823c-8329cb6274d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product-189371804 .swiper-slide:nth-child(1) .bold:nth-child(1) > font:nth-child(1) > font:nth-child(1)",
+      "targets": [
+        ["css=#product-189371804 .swiper-slide:nth-child(1) .bold:nth-child(1) > font:nth-child(1) > font:nth-child(1)", "css:finder"],
+        ["xpath=//pwr-lib-carousel-wrapper[@id='product-189371804']/div/swiper/div[2]/div/pwr-product-item-v2/a/div[2]/h6/font/font", "xpath:idRelative"],
+        ["xpath=//h6/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7db3e60-80ba-4168-b6fc-f0e7cc66c432",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=#product-189371804 .swiper-slide:nth-child(1) .mb-spacer-solo",
+      "targets": [
+        ["css=#product-189371804 .swiper-slide:nth-child(1) .mb-spacer-solo", "css:finder"],
+        ["xpath=//pwr-lib-carousel-wrapper[@id='product-189371804']/div/swiper/div[2]/div/pwr-product-item-v2/a/div[3]/div", "xpath:idRelative"],
+        ["xpath=//a/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3345f9e5-6b54-442b-9665-592a8461f392",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=4",
+      "targets": [
+        ["index=4"]
+      ],
+      "value": ""
+    }, {
+      "id": "02b67b26-6099-4ae3-9d8d-36ffbb139bba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plain-input-cssmodule-input-1ALg7",
+      "targets": [
+        ["css=.plain-input-cssmodule-input-1ALg7", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div[2]/div/div/div[2]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0af9edda-864f-4651-a0a9-a4b8a3452eb0",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "0296f345-b4ff-4b03-bb09-1e35c08504f5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1221)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b59aa42e-b40b-4df2-a783-991042305058",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1424)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84dfdecc-b0b1-421f-9c1a-dd6ddf06998a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,220)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb5fb71d-347c-404d-b6f0-0993ca07afa0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dd-selection-item:nth-child(2)",
+      "targets": [
+        ["css=.dd-selection-item:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='product-variants']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//pwr-product-variants/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Gray')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad09af52-2c3a-4d06-8a5a-d01d7d5fb4c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dd-selection-item:nth-child(2)",
+      "targets": [
+        ["css=.dd-selection-item:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='product-variants']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//pwr-product-variants/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Gray')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f23a5a86-1fe7-4e47-bf66-7fdc339bc65f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=4",
+      "targets": [
+        ["index=4"]
+      ],
+      "value": ""
+    }, {
+      "id": "8778d45f-e08f-495b-83b0-9afa715ada7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.closeButton-cssmodule-container-3c4yy > svg",
+      "targets": [
+        ["css=.closeButton-cssmodule-container-3c4yy > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ba5b954-fbdc-489d-bbeb-d1a86ab6f184",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "878e6c76-71a9-48a2-a253-d801dee7cc6f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=MyPOWER",
+      "targets": [
+        ["linkText=MyPOWER", "linkText"],
+        ["css=.mypage-link-container .primary-dark", "css:finder"],
+        ["xpath=(//a[contains(@href, '/mypower/')])[4]", "xpath:href"],
+        ["xpath=//pwr-my-page-link/div/pwr-lib-header-button/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1007831e-15a5-4876-8359-9881943d0441",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=MyPOWER",
+      "targets": [
+        ["linkText=MyPOWER", "linkText"],
+        ["css=.mypage-link-container .primary-dark", "css:finder"],
+        ["xpath=(//a[contains(@href, '/mypower/')])[4]", "xpath:href"],
+        ["xpath=//pwr-my-page-link/div/pwr-lib-header-button/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71dffd29-fbda-46b5-a2f4-caeb313804a5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,842)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de978a27-92b3-4223-83ba-6589027a9954",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > .ng-star-inserted > font > font",
+      "targets": [
+        ["css=.btn > .ng-star-inserted > font > font", "css:finder"],
+        ["xpath=//section[@id='product-intro']/div[2]/div/div/div[3]/div/div[2]/div[2]/div[2]/button/span/font/font", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6964d4e1-7dca-4d10-908e-18fa4743a04e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn > .ng-star-inserted > font > font",
+      "targets": [
+        ["css=.btn > .ng-star-inserted > font > font", "css:finder"],
+        ["xpath=//section[@id='product-intro']/div[2]/div/div/div[3]/div/div[2]/div[2]/div[2]/button/span/font/font", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92ed3194-ae5e-4eec-ba38-5ea7cb5eb3dd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn > .ng-star-inserted > font > font",
+      "targets": [
+        ["css=.btn > .ng-star-inserted > font > font", "css:finder"],
+        ["xpath=//section[@id='product-intro']/div[2]/div/div/div[3]/div/div[2]/div[2]/div[2]/button/span/font/font", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c01db1b6-fa88-4d0c-84f0-5ab12d940776",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Siirry ostoskoriin",
+      "targets": [
+        ["linkText=Siirry ostoskoriin", "linkText"],
+        ["css=.summary-actions > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Siirry ostoskoriin')]", "xpath:link"],
+        ["xpath=//div[@id='cdk-overlay-0']/pwr-add-to-cart-dialog/div/div/div[2]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/checkout/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Siirry ostoskoriin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e275add3-b674-4d86-9c26-3bc340eceefc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c48f87f1-f5be-444c-a403-ac1503f473c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.line-quantity-button-minus > font > font",
+      "targets": [
+        ["css=.line-quantity-button-minus > font > font", "css:finder"],
+        ["xpath=//section[@id='basket']/div[2]/div/pwr-checkout-product-line/div/div/div[2]/div/button/font/font", "xpath:idRelative"],
+        ["xpath=//button/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04c50474-bee7-4905-a2e2-398a668a4106",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.line-quantity-button-minus",
+      "targets": [
+        ["css=.line-quantity-button-minus", "css:finder"],
+        ["xpath=//section[@id='basket']/div[2]/div/pwr-checkout-product-line/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//pwr-checkout-product-line/div/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b021fe1-71e6-4deb-9fc8-83ae68f63c9b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.secondary > div",
+      "targets": [
+        ["css=.secondary > div", "css:finder"],
+        ["xpath=//section[@id='basket']/div[2]/div/pwr-checkout-product-line/div/pwr-checkout-addons/div/div/pwr-insurance-selection/pwr-lib-accordion/div/div[2]/div/div/div/div[2]/pwr-lib-button/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a4e083a-89ec-4356-b76b-9c86063edcfa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.secondary > div",
+      "targets": [
+        ["css=.secondary > div", "css:finder"],
+        ["xpath=//section[@id='basket']/div[2]/div/pwr-checkout-product-line/div/pwr-checkout-addons/div/div/pwr-insurance-selection/pwr-lib-accordion/div/div[2]/div/div/div/div[2]/pwr-lib-button/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1927f016-bcd1-4090-9f27-f93584ac8912",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success > font > font",
+      "targets": [
+        ["css=.btn-success > font > font", "css:finder"],
+        ["xpath=//section[@id='basket']/div[3]/div/div[2]/button/font/font", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e46c309-b3a3-476f-9e80-3d606b64a54b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,751.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ac27763-5a8e-4dbe-98cf-705888635df1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dash:nth-child(1) > font > font",
+      "targets": [
+        ["css=.dash:nth-child(1) > font > font", "css:finder"],
+        ["xpath=//a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccd1341c-4898-4b6c-95a3-17838d8e2ba1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#image-slides-120245479 .swiper-slide:nth-child(2) .item",
+      "targets": [
+        ["css=#image-slides-120245479 .swiper-slide:nth-child(2) .item", "css:finder"],
+        ["xpath=//pwr-lib-carousel-wrapper[@id='image-slides-120245479']/div/swiper/div[2]/div[2]/pwr-slider-image-item/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/pwr-slider-image-item/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "095392fd-e991-44a0-8f4a-748bfaeebb95",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#image-slides-120245479 .swiper-slide:nth-child(2) .item",
+      "targets": [
+        ["css=#image-slides-120245479 .swiper-slide:nth-child(2) .item", "css:finder"],
+        ["xpath=//pwr-lib-carousel-wrapper[@id='image-slides-120245479']/div/swiper/div[2]/div[2]/pwr-slider-image-item/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/pwr-slider-image-item/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36cf799e-3135-4b65-bfb3-5d4a3109d5d1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.text-nowrap",
+      "targets": [
+        ["css=.text-nowrap", "css:finder"],
+        ["xpath=//pwr-cart-indicator/div/pwr-lib-header-button/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1 239 €')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e81ff69-6616-4e03-9ab2-8af51839e149",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.text-nowrap",
+      "targets": [
+        ["css=.text-nowrap", "css:finder"],
+        ["xpath=//pwr-cart-indicator/div/pwr-lib-header-button/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'€ 1,239')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c08c24e7-c484-4100-b504-f18a5e7a614b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-nowrap > font > font",
+      "targets": [
+        ["css=.text-nowrap > font > font", "css:finder"],
+        ["xpath=//pwr-cart-indicator/div/pwr-lib-header-button/a/span/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8f12933-8b64-4224-8735-828df6e18560",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pwr-icon-trash",
+      "targets": [
+        ["css=.pwr-icon-trash", "css:finder"],
+        ["xpath=//section[@id='basket']/div[2]/div/pwr-checkout-product-line/div/pwr-checkout-addons/div/div/pwr-insurance-selection/pwr-lib-accordion/div/div[2]/div/div/div/div[2]/pwr-lib-icon-button/button/pwr-lib-icon/i", "xpath:idRelative"],
+        ["xpath=//button/pwr-lib-icon/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e789a6c3-4fae-4cd8-ab4c-45abc5490a67",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.secondary > div",
+      "targets": [
+        ["css=.secondary > div", "css:finder"],
+        ["xpath=//section[@id='basket']/div[2]/div/pwr-checkout-product-line/div/pwr-checkout-addons/div/div/pwr-insurance-selection/pwr-lib-accordion/div/div[2]/div/div/div/div[2]/pwr-lib-button/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da90faf5-2094-4f42-bd87-1f2679ce7939",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.secondary > div",
+      "targets": [
+        ["css=.secondary > div", "css:finder"],
+        ["xpath=//section[@id='basket']/div[2]/div/pwr-checkout-product-line/div/pwr-checkout-addons/div/div/pwr-insurance-selection/pwr-lib-accordion/div/div[2]/div/div/div/div[2]/pwr-lib-button/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d674a97a-ae8b-4683-ba11-5873b98326d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.line-quantity-button-minus > font > font",
+      "targets": [
+        ["css=.line-quantity-button-minus > font > font", "css:finder"],
+        ["xpath=//section[@id='basket']/div[2]/div/pwr-checkout-product-line/div/div/div[2]/div/button/font/font", "xpath:idRelative"],
+        ["xpath=//pwr-checkout-product-line/div/div/div[2]/div/button/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60129b38-2e5a-4670-b53c-03adb9833413",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pwr-icon-cart",
+      "targets": [
+        ["css=.pwr-icon-cart", "css:finder"],
+        ["xpath=//pwr-cart-indicator/div/pwr-lib-header-button/a/div/pwr-lib-icon/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e898bce-b890-4b04-811a-92711afc0409",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.pwr-icon-cart",
+      "targets": [
+        ["css=.pwr-icon-cart", "css:finder"],
+        ["xpath=//pwr-cart-indicator/div/pwr-lib-header-button/a/div/pwr-lib-icon/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "17cedc7c-a85a-48e5-97ce-e2100e5c90b2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1e31d0ca-ec65-41d4-8170-fb3c1c71e6c2"]
+  }],
+  "urls": ["https://www.power.fi/"],
+  "plugins": []
+}
